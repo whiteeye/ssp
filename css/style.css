@@ -1,0 +1,217 @@
+
+
+body{
+	
+	background: url(images/bg-body.gif);
+	font-family: Georgia, serif;
+}
+div.container{
+	
+	width: 970px; margin: 0 auto;}
+
+
+
+/*------Standard Layout Styles------*/
+/*----------------------------------*/
+div.shadow{
+position: relative; float: left;background: url(images/bg-shadow.gif); width:100%;}
+
+ div.grid_12{background:#fff;}
+
+.border-right{border-right:solid 1px #999; margin-right:8px;}
+.no-border{border: none;}
+
+.padding{padding:20px;}
+.margin{margin:20px;}
+
+.margin-top{margin-top:20px;}
+.margin-bottom{margin-bottom:20px;}
+.no-margin-top{margin-top:0px;}
+.no-margin-bottom{margin-bottom:0px;}
+
+.no-padding-top{padding-top:0px;}
+.no-padding-bottom{padding-bottom:0px;}
+.no-padding-right{padding-right:0px;}
+.no-padding-left{padding-left:0px;}
+
+
+
+div.double-line{border-top:solid 1px #999; border-bottom:solid 1px #999; height:2px; line-height:2px; font-size:1px; width:100%; position:relative; float:left;}
+
+/*--Standard Typographic Styles-----*/
+/*----------------------------------*/
+
+a{border-bottom:solid 1px #6a94ba; color: #6a94ba; text-decoration:none;}
+a:hover{border-bottom:none;}
+
+abbr{border-bottom:dashed 1px; cursor:help;}
+ abbr a{border:border-bottom:solid 1px #6a94ba;}
+abbr a:hover{border:none;}
+
+address{
+	margin: 18px 0 18px 0; font-style: normal; line-height: 18px; font-size: 14px;
+}
+del{text-decoration:line-through; color:#666;}
+dl, dt, dd{font-family:Georgia, "Times New Roman", Times, serif; color:#191919; font-size:14px;}
+dl{margin: 9px 0 18px 0;}
+dt{font-weight:bold;}
+dd{margin:0 0 18px 20px;}
+h1{color: #000;font-size:30px; line-height:30px; font-weight:normal; margin: 0 0 36px 0;}
+h2{color: #000;font-size:24px; line-height:26px; margin: 36px 0 18px 0; font-weight:normal;}
+h3{color: #000;font-size:20px; line-height:24px; margin: 36px 0 18px 0; font-weight:normal;}
+h4{color: #000;font-size:16px; line-height:20px; margin: 24px 0 9px 0; font-weight:normal;}
+h5{color: #000;font-size:15px; line-height:18px; margin: 24px 0 9px 0; font-weight:normal;}
+h6{color: #191919;font-size:14px; line-height:18px; margin: 9px 0 9px 0; font-weight:normal;}
+ins{background:#dff5ff; color:#000;}
+ins a{color:#000;}
+p{font-size:14px; line-height:24px; margin: 0 0 18px 0; color:#191919;}
+ul {list-style: disc; margin:0 0 18px 15px; }
+ol{	list-style:decimal;margin:0 0 18px 20px;}
+ li{font-size:14px; line-height:20px;	margin: 0 0 10px 0px;}
+small{ font-size: 12px; line-height: 12px;
+	
+}
+
+/*--------------Navigation----------*/
+/*----------------------------------*/
+
+div.logo{
+	
+text-align: center;
+}
+ul.navigation{ margin: -25px 0 0 310px; border-collapse:collapse; border-left:solid 1px #632727; height: 20px; }
+
+ul.navigation li{ display: inline; margin: 0 15px 0 15px; height:20px; list-style: none; padding: 0 5px 0 5px; height:100%; position:relative; float: left;}
+ 
+
+ul.navigation li a{border:none; color:#666; display:block;line-height:20px; }
+
+ul.navigation li a:hover, ul.navigation li.active a{border-bottom:solid 2px #990000; color:#000;}
+
+
+
+/*------------Header----------------*/
+/*----------------------------------*/
+
+.call-to-action p.call-us{font-weight:bold; font-size:24px; font-style:italic; text-align:justify; margin: 0 0 5px 0; width:100%;}
+
+.call-to-action p em{color:#632727;}
+
+.call-to-action p.locations{ font-size:14px;}
+.call-to-action ul{margin: 10px 0 0 0;}
+.call-to-action ul li{ position:relative; float:left; width:43%; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height: 16px; list-style:disc; margin:5px 0 0 15px;}
+  
+/*------------Footer----------------*/
+/*----------------------------------*/
+p.footer{
+font-size: 13px;	text-align: center;
+}
+p.footer a{
+border: none; color: #333; }
+p.footer a:hover{
+	border-bottom: solid 1px; color: #000;
+}
+
+/*-------Sidebar Contact Form-------*/
+/*----------------------------------*/
+div.grey{background: #e6e6e6;}
+div.contact-form{
+ margin-right: 10px;	
+}
+div.contact-form h3{
+	color: #333;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	margin: 0 0 18px 0;
+}
+div.contact-form p{
+	font-family: Arial, sans-serif; line-height: 16px; margin: 9px 0 0 0;
+}
+div.contact-form input.text{
+border: none;
+background: none;
+	background:#fff;
+	color: #333;
+		font-family: Helvetica, Arial, sans-serif;
+
+	font-size: 12px;
+	border: solid 1px #999;
+	margin: 5px 0 5px 0;
+	padding: 5px 3px 5px 3px;
+	width: 80%;
+}
+textarea{
+	color: #333;
+border: solid 1px #999;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	height: 150px;
+	margin: 5px 0 5px 0;
+padding: 5px 3px 5px 3px;
+	width: 98%;
+}
+
+div.contact-form input.submit{
+	background: none;
+	background: url(images/bg-submit.gif) top left no-repeat;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	font-size:18px;
+	font-weight: bold;
+	height: 50px;
+	margin: 10px 0 0 0;
+	text-align: center;
+	width: 250px;
+}
+div.contact-form input.submit:hover{
+background-position: bottom left;
+}
+
+/*------------Home Page----------------*/
+/*----------------------------------*/
+
+.practice-area h2{margin-bottom:18px;
+}
+
+.home-location h2{margin-bottom:18px;
+}
+
+
+/*------------About Page----------------*/
+/*----------------------------------*/
+
+.profile{	text-align: right; }
+.profile h2{margin-top: 0px;}
+p.quote{
+color: #e6e6e6;
+	font-size: 300px;
+}
+
+/*------------Articles Page----------------*/
+/*----------------------------------*/
+ 
+
+ .sidebar .double-line{width: 305px; left: 0px;}
+div.articles-border{background:url(images/bg-border.gif) repeat-y; background-position: 640px 0;}
+
+div.sidebar a.submit{
+	background: none;
+	background: url(images/bg-submit.gif) top left no-repeat;
+	
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	margin-top: 25px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+		width: 250px;
+}
+div.sidebar a.submit:hover{
+background-position: bottom left;
+}
+div.sidebar h3{margin-top:0px;}
